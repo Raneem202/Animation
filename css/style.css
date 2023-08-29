@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(249, 248, 248);
+}
+.container{
+    /* width: 100vw;
+    height: 120px;
+    border: 1px solid ; */
+    position: relative;
+}
+.dives{
+    width: 100vw;
+        height: 120px;
+        border: 1px solid rgb(154, 154, 154);
+}
+div{
+    width: 200px;
+    height: 120px;
+    
+}
+.div1{
+    top: 0px;
+    position: absolute;
+    animation-name: first;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    background-color: #9ed0e9;
+}
+@keyframes first{
+    from{
+        background-color: #aad8ef;
+        left: 0;
+    }
+    to{
+        background-color: #ff84cc;
+        left: 1300px;
+    }
+}
+.div2 {
+    position: absolute;
+    top: 120px;
+    animation-name: second;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    animation-direction: reverse;
+    background-color: #aad8ef;
+}
+@keyframes second {
+    from {
+        background-color: #aad8ef;
+        left: 0;
+    }
+    to {
+        background-color: #ff84cc;
+        left: 1300px;
+    }
+}
+.div3 {
+    animation-fill-mode: forwards;
+    top: 240px;
+    position: absolute;
+    animation-name: third;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    background-color: #aad8ef;
+}
+@keyframes third {
+    from {
+        background-color: #aad8ef;
+        left: 0;
+    }
+
+    to {
+        background-color: #ff84cc;
+        left: 1300px;
+    }
+}
+.div4 {
+    animation-fill-mode: backwards;
+    top: 360px;
+    position: absolute;
+    animation-name: fourth;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-direction: reverse;
+    background-color: #aad8ef;
+}
+@keyframes fourth {
+    from {
+        background-color:#aad8ef;
+        left: 0;
+    }
+    to {
+        background-color: #ff84cc;
+        left: 1300px;
+    }
+}
+.div5 {
+    animation-fill-mode: forwards;
+    top: 480px;
+    position: absolute;
+    animation-name: fivth;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    background-color: #aad8ef;
+}
+@keyframes fivth {
+    from {
+        background-color: #aad8ef;
+        left: 0;
+    }
+
+    to {
+        background-color: #ff84cc;
+        left: 1300px;
+    }
+}
+.div6 {
+    animation-fill-mode: backwards;
+    top: 600px;
+    position: absolute;
+    animation-name: fourth;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-direction: reverse;
+    background-color: #aad8ef;
+}
+
+@keyframes fourth {
+    from {
+        background-color: #aad8ef;
+        left: 0;
+    }
+
+    to {
+        background-color: #ff84cc;
+        left: 1300px;
+    }
+}
